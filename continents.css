@@ -1,0 +1,65 @@
+audio
+{
+    display:none;
+}
+body
+{
+    background-color:#b3ccff;
+}
+p
+{
+font-size:20px;
+}
+
+div
+{
+    position:absolute;
+}
+.northamerica
+{
+    position:absolute;
+    margin-top:0px;
+    display:none;
+}
+.southamerica
+{
+    position:absolute;
+    margin-top:280px;
+    margin-left:240px;
+    display:none;
+}
+.Europe
+{
+    position:absolute;
+    margin-top:0px;
+    margin-left:460px;
+    display:none;
+}
+.Asia
+{
+    position:absolute;
+    margin-top:0px;
+    margin-left:690px;
+    display:none;
+}
+.Africa
+{
+    position:absolute;
+    margin-top:230px;
+    margin-left:490px;
+    display:none;
+}
+.Australia
+{
+    position:absolute;
+    margin-top:500px;
+    margin-left:1090px;
+    display:none;
+}
+.antartica
+{
+    position:absolute;
+    margin-top:600px;
+    margin-left:300px;
+    display:none;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="continents.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"> </script>
+<title> World Map </title>
+</head>
+
+<body>
+
+<audio controls autoplay="true" loop>
+    <source src="ambient.mp3" type="audio/wav">
+</audio>
+    
+<p> Move the Mouse over Continents.</p>
+
+<img id="na" src="NorthAmerica.png" class="northamerica" height="300">
+<img id="sa" src="SouthAmerica.png" class="southamerica" height="300">
+<img id="eur" src="europe.png" class="Europe" height="200">
+<img id="asi" src="asia.jpg" class="Asia" height="500">
+<img id="af" src="AFRICA.jpg" class="Africa" width="290">
+<img id="aus" src="australia.png" class="Australia" width="250">
+<img id="ant" src="Antartica.png" class="antartica">
+
+<script>
+
+$(document).ready(function()
+{
+ $("#na").delay(1000).fadeIn(1000); 
+ $("#sa").delay(2000).fadeIn(1000);
+ $("#eur").delay(3000).fadeIn(1000);
+ $("#asi").delay(4000).fadeIn(1000);
+ $("#af").delay(5000).fadeIn(1000);
+ $("#aus").delay(6000).fadeIn(1000);
+ $("#ant").delay(7000).fadeIn(1000);
+});
+        
+
+$("#na").mouseenter(function(){
+$("p").text("North America is a continent entirely within the Northern Hemisphere and almost all within the Western Hemisphere; it is also considered by some to be a northern subcontinent of the Americas");
+});
+
+$("#sa").mouseenter(function(){
+$("p").text("South America is a continent located in the western hemisphere, mostly in the southern hemisphere, with a relatively small portion in the northern hemisphere.");
+});
+
+$("#eur").mouseenter(function(){
+$("p").text("Europe is a continent located entirely in the Northern Hemisphere and mostly in the Eastern Hemisphere. It is bordered by the Arctic Ocean to the north, the Atlantic Ocean to the west, and the Mediterranean Sea to the south.");
+});
+
+$("#asi").mouseenter(function(){
+$("p").text("Asia is Earth's largest and most populous continent, located primarily in the Eastern and Northern Hemispheres.");
+});
+
+$("#af").mouseenter(function(){
+$("p").text("Africa is the world's second largest and second most-populous continent. At about 30.3 million km² including adjacent islands, it covers 6% of Earth's total surface area and 20.4% of its total land area");
+});
+
+$("#aus").mouseenter(function(){
+$("p").text("Australia, sometimes known in technical contexts by the names Sahul, Australinea or Meganesia, to distinguish it from the Australian mainland, is a continent comprising mainland Australia, Tasmania, New Guinea, Seram, and neighbouring islands");
+});
+
+$("#ant").mouseenter(function(){
+$("p").text("It contains the geographic South Pole and is situated in the Antarctic region of the Southern Hemisphere, almost entirely south of the Antarctic Circle, and is surrounded by the Southern Ocean.");
+});
+
+</script>
+</body>
+</html>
+
